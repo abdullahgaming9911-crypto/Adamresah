@@ -48,7 +48,7 @@ export async function POST(req: NextRequest) {
 
     // تجهيز السياق للنموذج
     const fullContext = chunks.join("\n\n---\n\n");
-    const DEEPSEEK_API_KEY = "ضع_مفتاح_deepseek_الخاص_بك_هنا"; // <--- ضع المفتاح هنا
+    const DEEPSEEK_API_KEY = "sk-590931f358ff4d669b0e2cd40eed9c0c"; // <---   
 
     const systemPrompt = `أنت باحث أكاديمي خبير. القواعد الصارمة جداً:
     1. استخرج المعلومات من النص المرفق فقط ولا تضف أي معلومات خارجية إطلاقاً.
